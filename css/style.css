@@ -3,14 +3,17 @@
 html, body {
   height: 100%;
   min-height: 100%;
+  
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+ /* background: url(../images/backgrounds/architecture.jpg) center no-repeat;*/
+ background-image: linear-gradient(green,yellow);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  ;
 }
 
 .wrapper {
@@ -53,6 +56,9 @@ img {
 
 p {
   font-size: 1em;
+  color: green;
+  font-size: 20px;
+  font-family: monospace;
 }
 
 a {
